@@ -86,7 +86,10 @@ import math
 
 #Zad4. Napisz skrypt, który policzy i wyświetli następujące wyrażenia:
 #print(math.exp(10))
-
+# print(math.floor(3.55))
+# print(math.ceil(4.80))
+# result = (math.log(5 + (math.sin(8) ** 2))) ** 1 / 6
+# print(result)
 #Zad.5 Zapisz swoje imie i nazwisko w oddzielnych zmiennych wszystkie wielkimi literami. Użyj odpowiedniej metody by wyświetlić je pisane tak, że pierwsza litera jest wielka a pozostałe małe. (trzeba użyć metody capitalize)
 # imie = 'NIKITA'
 # nazwisko = 'OSZEJKO'
@@ -107,11 +110,9 @@ import math
 # print(string.split(' '))
 
 #Zad.9 Napisz skrypt, w którym zadeklarujesz zmienne typu: string, float i szestnastkowe. Następnie wyświetl je wykorzystując odpowiednie formatowanie.
-# a, b = 1, 2
-# print('liczba a %d, liczba b %d' % (a, b))
 # s1, s2 = 'ala', 'kot'
-# print('liczba a %s, liczba b %s' % (s1, s2))
+# print('liczba s1 %s, liczba s2 %s' % (s1, s2))
 # f1, f2 = 0.5, 0.2
-# print('liczba a %f, liczba b %f' % (f1, f2))
-# c1, c2 = 1 + 2j, 3 + 5j
-# print('liczba a %fi, liczba b %fi' % (c1.imag, c2.imag))
+# print('liczba f1 %f, liczba f2 %f' % (f1, f2))
+# h1, h2 = 1, 2
+# print('liczba h1 %#x liczba h2 %#x' % (h1, h2))
