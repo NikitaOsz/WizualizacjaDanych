@@ -22,11 +22,11 @@ from math import sqrt
 
 #Zad 5. Napisz skrypt gdzie pobierzesz trzy liczby całkowite, gdzie wykonasz obliczenia: ab + c. Użyj instrukcji readline() i write()).
 # sys.stdout.write('Podaj trzy liczby całkowite: ')
-# a = sys.stdin.readline()
-# b = sys.stdin.readline()
-# c = sys.stdin.readline()
-# w = int(a) * int(b) + int(c)
-# sys.stdout.write('a * b + c = %s' % w)
+# a = int(sys.stdin.readline())
+# b = int(sys.stdin.readline())
+# c = int(sys.stdin.readline())
+# w = a ** b + c
+# sys.stdout.write('a ^ b + c = %s' % w)
 
 #Zad 6. Wczytaj trzy liczby całkowite a,b,c i sprawdź, która z nich jest największa. W zależności od wyniku wyświetl odpowiedni komunikat. Użyj zagnieżdżeń.
 # a = int(input('Podaj a: '))
