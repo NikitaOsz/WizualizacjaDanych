@@ -86,6 +86,6 @@ from math import sqrt
 #     liczba = int(input('Podaj liczbe: '))
 #     print(sqrt(liczba))
 #
-# except:
-#     print(sys.exc_info()[0])
+# except Exception as e:
+#     print(e)
 #     print('Tylko liczby nieujemne!')
