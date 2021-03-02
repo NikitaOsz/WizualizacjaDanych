@@ -75,17 +75,11 @@ from math import sqrt
 #
 # Deklarujemy jedną następującą listę [1,2,3,4,5,6]. Następnie za pomocą pętli i instrukcji warunkowej wykonujemy odpowiednie działania. Trzeba wykorzystać zagnieżdżenia.
 # l = [1, 2, 3, 4, 5, 6]
-# test = True
-# for i in range(1, 11):
+# for i in range(1, len(l)):
 #     if i % 2 == 1:
-#         if test:
-#             print('EEEEE')
-#             test = False
-#         else:
-#             print('E')
-#             test = True
+#         print('EEEEE')
 #     else:
-#         print('')
+#         print('E')
 
 #Zad. 10 Napisz skrypt, który liczy pierwiastek z liczby podanej przez użytkownika jeśli użytkownik poda wartość ujemną to powinien być wyłapany błąd.
 # try:
